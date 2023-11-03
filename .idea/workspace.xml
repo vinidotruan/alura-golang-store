@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046bea65-6b05-4b99-bb74-f46c987dbc4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/products.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/products.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/routes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/_head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/products.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/products.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/products.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/products.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/routes.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/routes.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/new.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,9 +41,9 @@
     </option>
     <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2XXas9QUT7XTdDt1I82V9ECOh3T" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",

@@ -1,20 +1,21 @@
-{{define "New"}}
+{{define "Edit"}}
 {{ template "_head" }}
 {{ template "_menu" }}
     <body>
         <div class="container">
                 <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                        <h1 class="display-5">Novo produto</h1>
-                        <p class="lead">Insira os detalhes</p>
+                        <h1 class="display-5">Editando produto</h1>
+                        <p class="lead">Atualize os detalhes</p>
                     </div>
                 </div>
-                <form method="POST" action="insert">
+                <form method="POST" action="update">
+                    <input type="hidden" name="id" value="{{.Id}}">
                     <div class="row">
                         <div class="col-sm-8">
                             <div class="form-group">
                                 <label for="name">Nome:</label>
-                                <input type="text" name="name" id="name" class="form-control">
+                                <input type="text" name="name" id="name" class="form-control" value="{{.Name}}">
                             </div>
                         </div>
                     </div>
@@ -22,7 +23,7 @@
                         <div class="col-sm-8">
                             <div class="form-group">
                                 <label for="description">Descrição:</label>
-                                <input type="text" name="description" id="description" class="form-control">
+                                <input type="text" name="description" id="description" class="form-control" value="{{.Description}}">
                             </div>
                         </div>
                     </div>
@@ -30,7 +31,7 @@
                         <div class="col-sm-2">
                             <div class="form-group">
                                 <label for="price">Preço:</label>
-                                <input type="number" name="price" id="price" class="form-control" step="0.01">
+                                <input type="number" name="price" id="price" class="form-control" step="0.01" value="{{.Price}}">
                             </div>
                         </div>
                     </div>
@@ -38,7 +39,7 @@
                         <div class="col-sm-2">
                             <div class="form-group">
                                 <label for="quantity">Quantidade:</label>
-                                <input type="number" name="quantity" id="quantity" class="form-control">
+                                <input type="number" name="quantity" id="quantity" class="form-control" value="{{.Quantity}}">
                             </div>
                         </div>
                     </div>
